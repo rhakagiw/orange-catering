@@ -1,0 +1,132 @@
+/* Wedding Announcement Theme B Template made by R Web Designs LLC 2019*/
+@import url('https://fonts.googleapis.com/css?family=Amiri:400,700&display=swap');
+/*   font-family: 'Amiri', serif;  */
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700&display=swap');
+/*   font-family: 'Alegreya Sans', sans-serif; */
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden
+}
+
+body {
+    overflow: hidden !important;
+    width: 100%;
+    height: 100%;
+    background-color:#fff;
+    color:#424040;
+    line-height:2rem;
+ }
+
+p{
+    font-size:1.2rem;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:300;
+}
+ h1,h2{
+    font-family: 'Amiri', serif; 
+    font-weight:700;
+    letter-spacing:0.2rem;
+ }
+
+ h3,h4,h5,h6{
+     font-weight:500;
+     font-family:'Alegreya Sans', sans-serif;
+ }
+h1{
+    font-size:2.2rem;
+}
+h2{ font-size:1.9rem;
+}
+h3 {
+    font-size:1.6rem;
+}
+h4 {
+    font-size:1.3rem;
+}
+h5 {
+    font-size:1rem;
+}
+h6 {
+    font-size:.9rem;
+}
+
+.title-margin-bottom{
+    margin-bottom:4rem;
+}
+a[href^="tel"] {
+    color: inherit; /* Inherit text color of parent element. */
+    text-decoration: none; /* Remove underline. */
+ }
+
+
+/*--------------------------------Navigation----------------------------------*/
+.navbar{
+    background-color:rgb(191,124,48) !important;
+    border-bottom:rgb(107,48,8) 3px solid;
+    opacity:0.8;
+}
+
+/* nav scrolling offset*/
+.offset:before{
+    height:4.5rem;
+    margin-top:-4.5rem;
+    content:"";
+    display:block;
+}
+
+
+
+/*------------------------------Navigation ends-------------------------------*/
+
+#banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../img/salmon-plate.jpg);
+    background-attachment:scroll;
+    background-size:cover;
+    background-position:center;
+}
+
+/*----------------------------Viewports begin here---------------------------*/
+.max-viewport{
+    min-height:70vh;
+}
+.viewport-60{
+    min-height:60vh;
+}
+/*-----------------------------Viewports end here-----------------------------*/
+
+/*-----------------------------Contact styles begin here------------------------*/
+#contact a{
+    color:#424040 !important;
+}
+#contact{
+    padding-top:6rem;
+    padding-bottom:1rem;
+}
+/*-----------------------------Contact styles end here------------------------*/
+/*-----------------------------Footer styles begin here------------------------*/
+#footer{
+    background-color:rgb(101,129,16) !important;
+    border-top:rgb(107,48,8)3px solid;
+    opacity:0.8;
+    padding-top:1rem;
+    color:#fff;
+}
+#footer a{
+    color:#fff;
+}
+
+.btn{
+    background-color:rgb(101,129,16) !important;
+    border:1px solid rgb(107,48,8);
+    color:#fff;
+}
+
+.btn:hover{
+    background-color:rgb(107,48,8);
+    border: 1px solid rgb(101,129,16);
+}
+/*-----------------------------Footer styles end here--------------------------*/
